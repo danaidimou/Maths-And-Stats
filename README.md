@@ -21,9 +21,3 @@ Its vulnerability to external influences over time, is making it harder to attri
 
 As a primary metric, I chose GMV($) because it directly reflects revenue, which is often the ultimate goal of any business. An increase in GMV would indicate that the variant being tested leads to higher sales. 
 
-The secondary metrics are: 
-Number of add to cart and this is a critical metric because it directly precedes a purchase. An increase in this metric could predict an increase in GMV.
-Number of page views. This metric helps understand if the variant affects how users explore the website. 
-Time on page(sec). Longer time spent on a page might indicate that users find the content more engaging or relevant. 
-Clicks on media. Clicks on media elements can be a good engagement indicator, especially for products where visuals are a significant factor in the purchasing decision. 
-Some extra metrics that I wished I could have, would be the conversion rate in order to be able to see the percentage of visits that result in a purchase and the bounce rate to figure out the percentage of visitors who navigate away from the site after viewing only one page. 
