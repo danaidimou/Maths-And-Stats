@@ -30,3 +30,22 @@ One metric missing that could've been of value is the Bounce Rate on Product Pag
 _______________________________________________________________________________________________________________________________________________________
 
 After deciding what metrics I wanted to use, I calculated the distribution atributes in order to see if they are normally distributed and noticed that the data in GMV in $ is not normally distributed, since there was some skewness, but since the sample size is large enough to rely on the Central Limit Theorem, I went for the two-sample t-test.
+
+For Number of Add to Cart (Primary Metric):
+T-statistic: -8.7774
+P-value: 3.517×10 to the power of −18
+The negative t-statistic indicates that the mean "Number of Add to Cart" is lower in Variant A compared to Variant B. The extremely small p-value suggests that this difference is statistically significant. We can confidently reject the null hypothesis and conclude that the change to the media rail has a significant impact on the number of items users add to their carts.
+
+"GMV (in $)":
+T-statistic: -1.28395
+P-value: 0.1993
+The negative t-statistic here indicates that the mean GMV is lower in Variant A compared to Variant B. However, the p-value is greater than the typical alpha level of 0.05, indicating that this difference is not statistically significant. Therefore, we cannot reject the null hypothesis for GMV, suggesting that the change in the media rail did not significantly affect the GMV between the two variants.
+
+"Clicks on Media":
+T-statistic: 3.17107
+P-value: 0.00154
+The positive t-statistic indicates that the mean "Clicks on Media" is higher in Variant A compared to Variant B. The p-value is less than 0.05, indicating that this difference is statistically significant. We can reject the null hypothesis, concluding that Variant A leads to significantly more media clicks compared to Variant B.
+______________________________________________________________________________________________________________________________________________________
+
+The data shows that Variant B significantly increases the number of add-to-cart actions, a key indicator of user engagement and potential sales. Implementing Variant B across the site could enhance overall performance.  
+While Variant B doesn't show a significant difference in GMV now, the increase in add-to-cart actions might lead to higher sales over time. It's also worth noting that Variant A resulted in more clicks on media, indicating that aspects of Variant A could be engaging users in ways that Variant B does not. Therefore, it might be beneficial to deeper dive into the elements that made Variant A more engaging. By doing a segmentation and user journey analysis, we could break down the data by user segments (e.g., new vs. returning users and different demographics) and examining the paths users take on the site, especially how they interact with the media rail and what actions follow those interactions.
